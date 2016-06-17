@@ -7,10 +7,10 @@ def main(presenter):
 	  presenter.shiftDown(s)
 
 		# The numberings of the fields are important; you reference them by number in server.py
-		bkkks = presenter.rangefield('N-11', 0, 4) #Barbara Katz Knowledge Subject
+		bkks = presenter.rangefield('N-11', 0, 4) #Barbara Katz Knowledge Subject
 		presenter.set("BK Knowledge of Subject", bkks) #0
 		
-		bkkop = presenter.rangefield('N-12', 0, 4) #Barbara Katz Organized in Presenting
+		bkop = presenter.rangefield('N-12', 0, 4) #Barbara Katz Organized in Presenting
 		presenter.set("BK Organized in Presenting", bkop) #1
 		
 		bkcd = presenter.rangefield('N-13', 0, 4) #Barbara Katz Effective in Content Delivery
@@ -22,7 +22,7 @@ def main(presenter):
 		pmks = presenter.rangefield('AD-11', 0, 4) #Pamela D. Miller Knowledge Subject
 		presenter.set("PM Knowledge of Subject", pmks) #4
 		
-		pmkop = presenter.rangefield('AD-12', 0, 4) #Pamela D. Miller Organized in Presenting
+		pmop = presenter.rangefield('AD-12', 0, 4) #Pamela D. Miller Organized in Presenting
 		presenter.set("PM Organized in Presenting", pmop) #5
 		
 		pmcd = presenter.rangefield('AD-13', 0, 4) #Pamela D. Miller Effective in Content Delivery
@@ -34,7 +34,7 @@ def main(presenter):
 		jmks = presenter.rangefield('N-17', 0, 4) #Julia MacMillan Knowledge Subject
 		presenter.set("JM Knowledge of Subject", jmks) #8
 		
-		jmkop = presenter.rangefield('N-18', 0, 4) #Julia MacMillan Organized in Presenting
+		jmop = presenter.rangefield('N-18', 0, 4) #Julia MacMillan Organized in Presenting
 		presenter.set("JM Organized in Presenting", jmop) #9
 		
 		jmcd = presenter.rangefield('N-19', 0, 4) #Julia MacMillan Effective in Content Delivery
@@ -43,10 +43,10 @@ def main(presenter):
 		jmtm = presenter.rangefield('N-20', 0, 4) #Julia MacMillan Teaching Methods Used Effectively
 		presenter.set("JM Teaching Methods Used Effectively", jmtm) #11
 		
-		tkkks = presenter.rangefield('AD-17', 0, 4) #Tara Kelly Knowledge Subject
+		tkks = presenter.rangefield('AD-17', 0, 4) #Tara Kelly Knowledge Subject
 		presenter.set("TK Knowledge of Subject", tkks) #12
 		
-		tkkop = presenter.rangefield('AD-18', 0, 4) #Tara Kelly Organized in Presenting
+		tkop = presenter.rangefield('AD-18', 0, 4) #Tara Kelly Organized in Presenting
 		presenter.set("TK Organized in Presenting", tkop) #13
 		
 		tkcd = presenter.rangefield('AD-19', 0, 4) #Tara Kelly Effective in Content Delivery
@@ -55,10 +55,10 @@ def main(presenter):
 		tktm = presenter.rangefield('AD-20', 0, 4) #Tara Kelly Teaching Methods Used Effectively
 		presenter.set("TK Teaching Methods Used Effectively", tktm) #15
 		
-	  ebkks = presenter.rangefield('V-23', 0, 4) #Emily Bialy Knowledge Subject
+	  ebks = presenter.rangefield('V-23', 0, 4) #Emily Bialy Knowledge Subject
 		presenter.set("EB Knowledge of Subject", ebks) #16
 		
-		ebkop = presenter.rangefield('V-24', 0, 4) #Emily Bialy Organized in Presenting
+		ebop = presenter.rangefield('V-24', 0, 4) #Emily Bialy Organized in Presenting
 		presenter.set("EB Organized in Presenting", ebop) #17
 		
 		ebcd = presenter.rangefield('V-25', 0, 4) #Emily Bialy Effective in Content Delivery
