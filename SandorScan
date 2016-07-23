@@ -13,7 +13,7 @@ from threading import Thread
 # This program was designed to be easily configurable, and new sheets can be made rapidly
 # The configuration for the sheets is done in a separate file (main.py)
 # Cory Lynch 2015
-class SandorScan:
+class PanelEval:
 	# Firstly, initializes the fields of a PiScout object
 	# Then it starts the main loop of PiScout
 	# Requires a function "main" which contains the sheet configuration
