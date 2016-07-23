@@ -55,7 +55,7 @@ def main(panel):
 		tktm = panel.countfield('AD-20', 0, 4) #Tara Kelly Teaching Methods Used Effectively
 		panel.set("TK Teaching Methods Used Effectively", tktm) #15
 		
-	  ebks = panel.countfield('V-23', 0, 4) #Emily Bialy Knowledge Subject
+		ebks = panel.countfield('V-23', 0, 4) #Emily Bialy Knowledge Subject
 		panel.set("EB Knowledge of Subject", ebks) #16
 		
 		ebop = panel.countfield('V-24', 0, 4) #Emily Bialy Organized in Presenting
@@ -68,16 +68,16 @@ def main(panel):
 		panel.set("EB Teaching Methods Used Effectively", ebtm) #19
 		
 		self1 = panel.countfield('AA-34', 0, 4) #Self Eval 1
-		panel.set("Communication", self1) #20
+		panel.set("Self Communication", self1) #20
 		
 		self2 = panel.countfield('AA-35', 0, 4) #Self Eval 2
-		panel.set("Ethics", self2) #21
+		panel.set("Self Ethics", self2) #21
 		
 		self3 = panel.countfield('AA-36', 0, 4) #Self Eval 3
-		panel.set("Advocacy", self3) #22
+		panel.set("Self Advocacy", self3) #22
 		
 		self4 = panel.countfield('AA-37', 0, 4) #Self Eval 4
-		panel.set("Objectives relation to purpose of educational activity", self4) #23
+		panel.set("Self Objectives relation to purpose of educational activity", self4) #23
 		
 		num1 = panel.countfield('M-39', 0, 1)
 		if num1 == 0:
@@ -88,6 +88,6 @@ def main(panel):
 
 		panel.submit()
 
-# This line creates a new Pipanel and starts the program
+# This line creates a new PanelEval and starts the program
 # It takes the main function as an argument and runs it when it finds a new sheet
-Pipanel(main)
+PanelEval(main)
